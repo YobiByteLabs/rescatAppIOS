@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F132780B19B4DD7100B6F47F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132780A19B4DD7100B6F47F /* AppDelegate.swift */; };
+		F132780D19B4DD7100B6F47F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132780C19B4DD7100B6F47F /* ViewController.swift */; };
+		F132781019B4DD7100B6F47F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F132780E19B4DD7100B6F47F /* Main.storyboard */; };
+		F132781219B4DD7100B6F47F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F132781119B4DD7100B6F47F /* Images.xcassets */; };
+		F132781E19B4DD7100B6F47F /* DogsomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132781D19B4DD7100B6F47F /* DogsomTests.swift */; };
+		F132782A19B4DEE000B6F47F /* Conectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132782919B4DEE000B6F47F /* Conectable.swift */; };
+		F132782C19B4E17D00B6F47F /* Facebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132782B19B4E17D00B6F47F /* Facebook.swift */; };
+		F132782E19B4E18600B6F47F /* Twitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132782D19B4E18600B6F47F /* Twitter.swift */; };
+		F132783019B4E19400B6F47F /* DogsomApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132782F19B4E19400B6F47F /* DogsomApi.swift */; };
+		F132783219B4E2A500B6F47F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132783119B4E2A500B6F47F /* Login.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F132781819B4DD7100B6F47F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13277FD19B4DD7100B6F47F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F132780419B4DD7100B6F47F;
+			remoteInfo = Dogsom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F132780519B4DD7100B6F47F /* Dogsom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dogsom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F132780919B4DD7100B6F47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F132780A19B4DD7100B6F47F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F132780C19B4DD7100B6F47F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F132780F19B4DD7100B6F47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F132781119B4DD7100B6F47F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F132781719B4DD7100B6F47F /* DogsomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogsomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F132781C19B4DD7100B6F47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F132781D19B4DD7100B6F47F /* DogsomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsomTests.swift; sourceTree = "<group>"; };
+		F132782719B4DDE300B6F47F /* PlayGround.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PlayGround.playground; sourceTree = "<group>"; };
+		F132782919B4DEE000B6F47F /* Conectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conectable.swift; sourceTree = "<group>"; };
+		F132782B19B4E17D00B6F47F /* Facebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Facebook.swift; sourceTree = "<group>"; };
+		F132782D19B4E18600B6F47F /* Twitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Twitter.swift; sourceTree = "<group>"; };
+		F132782F19B4E19400B6F47F /* DogsomApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogsomApi.swift; sourceTree = "<group>"; };
+		F132783119B4E2A500B6F47F /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F132780219B4DD7100B6F47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F132781419B4DD7100B6F47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F13277FC19B4DD7100B6F47F = {
+			isa = PBXGroup;
+			children = (
+				F132780719B4DD7100B6F47F /* Dogsom */,
+				F132781A19B4DD7100B6F47F /* DogsomTests */,
+				F132780619B4DD7100B6F47F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F132780619B4DD7100B6F47F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F132780519B4DD7100B6F47F /* Dogsom.app */,
+				F132781719B4DD7100B6F47F /* DogsomTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F132780719B4DD7100B6F47F /* Dogsom */ = {
+			isa = PBXGroup;
+			children = (
+				F132783119B4E2A500B6F47F /* Login.swift */,
+				F132782819B4DE9400B6F47F /* Adapters */,
+				F132780A19B4DD7100B6F47F /* AppDelegate.swift */,
+				F132780C19B4DD7100B6F47F /* ViewController.swift */,
+				F132780E19B4DD7100B6F47F /* Main.storyboard */,
+				F132781119B4DD7100B6F47F /* Images.xcassets */,
+				F132780819B4DD7100B6F47F /* Supporting Files */,
+				F132782719B4DDE300B6F47F /* PlayGround.playground */,
+			);
+			path = Dogsom;
+			sourceTree = "<group>";
+		};
+		F132780819B4DD7100B6F47F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F132780919B4DD7100B6F47F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F132781A19B4DD7100B6F47F /* DogsomTests */ = {
+			isa = PBXGroup;
+			children = (
+				F132781D19B4DD7100B6F47F /* DogsomTests.swift */,
+				F132781B19B4DD7100B6F47F /* Supporting Files */,
+			);
+			path = DogsomTests;
+			sourceTree = "<group>";
+		};
+		F132781B19B4DD7100B6F47F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F132781C19B4DD7100B6F47F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F132782819B4DE9400B6F47F /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				F132782919B4DEE000B6F47F /* Conectable.swift */,
+				F132782B19B4E17D00B6F47F /* Facebook.swift */,
+				F132782D19B4E18600B6F47F /* Twitter.swift */,
+				F132782F19B4E19400B6F47F /* DogsomApi.swift */,
+			);
+			name = Adapters;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F132780419B4DD7100B6F47F /* Dogsom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F132782119B4DD7100B6F47F /* Build configuration list for PBXNativeTarget "Dogsom" */;
+			buildPhases = (
+				F132780119B4DD7100B6F47F /* Sources */,
+				F132780219B4DD7100B6F47F /* Frameworks */,
+				F132780319B4DD7100B6F47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dogsom;
+			productName = Dogsom;
+			productReference = F132780519B4DD7100B6F47F /* Dogsom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F132781619B4DD7100B6F47F /* DogsomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F132782419B4DD7100B6F47F /* Build configuration list for PBXNativeTarget "DogsomTests" */;
+			buildPhases = (
+				F132781319B4DD7100B6F47F /* Sources */,
+				F132781419B4DD7100B6F47F /* Frameworks */,
+				F132781519B4DD7100B6F47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F132781919B4DD7100B6F47F /* PBXTargetDependency */,
+			);
+			name = DogsomTests;
+			productName = DogsomTests;
+			productReference = F132781719B4DD7100B6F47F /* DogsomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13277FD19B4DD7100B6F47F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Linku;
+				TargetAttributes = {
+					F132780419B4DD7100B6F47F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F132781619B4DD7100B6F47F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F132780419B4DD7100B6F47F;
+					};
+				};
+			};
+			buildConfigurationList = F132780019B4DD7100B6F47F /* Build configuration list for PBXProject "Dogsom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F13277FC19B4DD7100B6F47F;
+			productRefGroup = F132780619B4DD7100B6F47F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F132780419B4DD7100B6F47F /* Dogsom */,
+				F132781619B4DD7100B6F47F /* DogsomTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F132780319B4DD7100B6F47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F132781019B4DD7100B6F47F /* Main.storyboard in Resources */,
+				F132781219B4DD7100B6F47F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F132781519B4DD7100B6F47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F132780119B4DD7100B6F47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F132783219B4E2A500B6F47F /* Login.swift in Sources */,
+				F132780D19B4DD7100B6F47F /* ViewController.swift in Sources */,
+				F132782A19B4DEE000B6F47F /* Conectable.swift in Sources */,
+				F132782E19B4E18600B6F47F /* Twitter.swift in Sources */,
+				F132780B19B4DD7100B6F47F /* AppDelegate.swift in Sources */,
+				F132782C19B4E17D00B6F47F /* Facebook.swift in Sources */,
+				F132783019B4E19400B6F47F /* DogsomApi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F132781319B4DD7100B6F47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F132781E19B4DD7100B6F47F /* DogsomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F132781919B4DD7100B6F47F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F132780419B4DD7100B6F47F /* Dogsom */;
+			targetProxy = F132781819B4DD7100B6F47F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F132780E19B4DD7100B6F47F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F132780F19B4DD7100B6F47F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F132781F19B4DD7100B6F47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F132782019B4DD7100B6F47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F132782219B4DD7100B6F47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Dogsom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F132782319B4DD7100B6F47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Dogsom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F132782519B4DD7100B6F47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DogsomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dogsom.app/Dogsom";
+			};
+			name = Debug;
+		};
+		F132782619B4DD7100B6F47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DogsomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dogsom.app/Dogsom";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F132780019B4DD7100B6F47F /* Build configuration list for PBXProject "Dogsom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F132781F19B4DD7100B6F47F /* Debug */,
+				F132782019B4DD7100B6F47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F132782119B4DD7100B6F47F /* Build configuration list for PBXNativeTarget "Dogsom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F132782219B4DD7100B6F47F /* Debug */,
+				F132782319B4DD7100B6F47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F132782419B4DD7100B6F47F /* Build configuration list for PBXNativeTarget "DogsomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F132782519B4DD7100B6F47F /* Debug */,
+				F132782619B4DD7100B6F47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F13277FD19B4DD7100B6F47F /* Project object */;
+}
